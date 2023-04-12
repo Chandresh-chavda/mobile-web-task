@@ -1,0 +1,33 @@
+﻿@model AddRole
+@{
+    ViewData["Title"] = "AddRole";
+}
+
+
+<form method="post" asp-area="Admin" asp-controller="Home" asp-action="AddRole">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+
+
+            <h2 class="text-primary">Add Role </h2>
+            <hr />
+
+        </div>
+
+        <div class="mb-3">
+            <label>Role Name</label>
+            <input class="form-control" required asp-for="Role" />
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div> 
+        
+
+
+
+        <button type="submit" class="btn btn-outline-success" style="width:100px"> Add </button>
+        <a class="btn btn-secondary" asp-area="Admin" asp-controller="Home" asp-action="Dashboard" >DashBoard</a>
+
+
+    </div>
+</form>
+
+

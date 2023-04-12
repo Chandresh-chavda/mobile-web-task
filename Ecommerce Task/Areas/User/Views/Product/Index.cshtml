@@ -1,0 +1,123 @@
+﻿@using Microsoft.AspNet.Identity;
+@model IEnumerable<AddProductDto>
+
+@{
+    var userId = User.Identity.GetUserId();
+}
+
+
+
+<br />
+<div class="container" p-3>
+    <div class="row" pt-4">
+        <div class="col-6">
+
+            <a class="btn btn-secondary" asp-area="User" asp-controller="Product" asp-action="AddProduct" asp-route-Id="userId" style="width:150px">Add Product</a>
+       
+
+        </div>
+        <div class="col-6 text-end">
+        </div>
+    </div>
+    <br /><br />
+    <table class="table table-bordered table-striped" id="tablelist" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Discription
+                </th>
+
+                <th>
+                    Quentity
+                </th>
+                <th>
+                    Prise
+                </th>
+                  <th>
+                    Discount
+                </th>
+                <th>
+                    IsActive
+                </th>
+                <th>
+                    
+                </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td width="20%">
+                        @obj.Name
+                    </td>
+                    <td width="20%">
+                        @obj.Description
+                    </td>
+                    <td width="20%">
+                        @obj.Quentity
+                    </td>
+                    <td width="20%">
+                        ₹@obj.price
+                    </td>
+                    <td width="20%">
+                        ₹@obj.Discount
+                    </td>
+                    <td width="20%">
+                        @obj.IsActive
+                    </td>
+                    <td style="width:50%">
+                        <div class="btn-group">
+                            <a asp-area="User" asp-controller="Product" asp-action="AddProduct" asp-route-id="@obj.ProductID" class="btn btn-primary mx-1" >
+                                Edit
+                            </a>
+                            <a onClick=Delete(@obj.ProductID) class="btn btn-danger mx-1">
+                               Delete
+                            </a>
+                            <a asp-area="User" asp-controller="Product" asp-action="AddDiscount" asp-route-id="@obj.ProductID" class="btn btn-primary mx-1" >
+                                Discount
+                            </a>
+                            </div>
+           
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<script>
+function Delete(id) {
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $.ajax({
+                url: "/User/Product/Delete/"+id,
+                
+                type : 'DELETE',
+                success: function (data) {
+                    if (data.success) {
+                        location.reload();
+                            TempData["success"]
+                    }
+                    else {
+                            location.reload();
+                            TempData["success"] 
+                    }
+                }
+            })
+        }
+    })
+
+}
+</script>

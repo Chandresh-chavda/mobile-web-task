@@ -1,0 +1,65 @@
+﻿@using static Models.Discount;
+@model Discount
+@{
+    ViewData["Title"] = "AddDiscount";
+}
+
+<form method="post" action="DealerRegister">
+	<input class="form-control" hidden value="0" asp-for="Id" />
+	<input class="form-control" hidden  asp-for="ProductId" />	
+	<div class="row offset-3" style="width:100%">
+		<div class="col-12">
+			<div class="border p-3 mt-4 row" style="width:50%">
+				<div class="col-12 pb-2">
+					<h2 class="text-primary fw-bold ">Add Discount</h2>
+
+				</div>
+				<div class="mb-3 col-6">
+					<label>ProductName</label>
+					<input class="form-control" readonly asp-for="ProductName" />
+					<span asp-validation-for="ProductName" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>ProductPrise</label>
+					<input type="datetime" class="form-control" readonly asp-for="ProductPrise" />
+					<span asp-validation-for="ProductPrise" class="text-danger"></span>
+
+				</div>
+
+				<div class="mb-3 col-6">
+					<label>FromDate</label>
+					<input class="form-control" asp-for="FromDate"  />
+					<span asp-validation-for="FromDate" class="text-danger"></span>
+
+				</div>
+				<div class="mb-3 col-6">
+					<label>ToDate</label>
+					<input class="form-control" asp-for="ToDate"  />
+					<span asp-validation-for="ToDate" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>discountType</label>
+					<select class="form-control" asp-for="discountType" asp-items="Html.GetEnumSelectList<DiscountType>()">
+					<span asp-validation-for="discountType" class="text-danger"></span>
+						<option selected="selected" value="">Please select</option>
+					</select>
+				</div>
+				<div class="mb-3 col-6">
+					<label>DiscountAmount</label>
+					<input class="form-control"  asp-for="DiscountAmount" />
+					<span asp-validation-for="DiscountAmount" class="text-danger"></span>
+				</div>
+				
+				<div class="col-12">
+					<button type="submit" class="btn btn-outline-success" style="width:150px"> Add </button>
+					<a class="btn btn-outline-info" asp-area="User" asp-controller="Product" asp-action="Index" style="width:150px">Back</a>
+				</div>
+
+
+
+			</div>
+
+</form>
+
+
+@*min="@Model.FromDate.ToString("yyyy-MM-dd HH:mm")"*@

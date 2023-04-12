@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNet.Identity;
+@model AddProductDto
+
+@{
+    ViewData["Title"] = "Index";
+    var dealerID = "";
+    if (User.Identity.IsAuthenticated)
+    {
+        dealerID = User.Identity.GetUserId();
+    }
+}
+
+
+
+
+<form method="post" asp-action="AddProduct" enctype="multipart/form-data">
+    <div class="row offset-3" style="width:100%">
+        <div class="col-12">
+            <div class="border p-3 mt-4 row" style="width:50%">
+                <div class="col-12 pb-2">
+                    <h2 class="text-primary">Add Product</h2>
+
+                </div>
+        <input class="form-control" asp-for="ProductID" hidden />
+        <input class="form-control" asp-for="DealerId" value="dealerID" hidden />
+        <input class="form-control" asp-for="ImageUrl" hidden/>
+        <div class="mb-3 col-6">
+            <label>Name</label>
+            <input required max="20" class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-6">
+            <label>Description</label>
+            <input required max="100" class="form-control" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+        </div>
+
+                <div class="mb-3 col-6">
+            <label>price</label>
+            <input required   class="form-control" asp-for="price" />
+            <span asp-validation-for="price" class="text-danger"></span>
+
+        </div>
+                <div class="mb-3 col-6">
+            <label>Quentity</label>
+            <input required  class="form-control" asp-for="Quentity" />
+            <span asp-validation-for="Quentity" class="text-danger"></span>
+
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="ImageUrl"></label>
+            <input type="file" accept=".jpg,.jpeg,.png" id="FileBox" name="file" asp-for="ImageUrl" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+           
+        </div>
+        <div class="mb-3">
+            <label>IsActive</label>
+            <input type="checkbox"  asp-for="IsActive" />
+            <span asp-validation-for="IsActive" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 col-6">
+        <button type="submit" class="btn btn-primary" style="width:100px"> add</button>
+        <a class="btn btn-secondary" asp-controller="Product" asp-action="Index">Dashboard</a>
+        <div>
+
+
+    </div>
+    </div>
+    </div>
+</form>
+
+

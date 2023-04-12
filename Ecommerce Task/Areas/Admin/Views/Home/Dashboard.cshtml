@@ -1,0 +1,211 @@
+﻿@model DashBoardViewModel
+@{
+    if(Model.dashboards.Count()==0)
+    {
+       
+         <form method="get">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+           
+                </div>
+                
+                <div class="col-sm-4">
+                    <input type="text" id="SearchItem" name="SearchItem" value="@Model.SearchItem" class="form-control"  />
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+        
+        <h1 style="text-align:center; padding-top:20%">No Record Found</h1>
+         
+    }
+
+    else{
+        <div style="margin-left:50%;">
+        <form method="get">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+           
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" id="SearchItem" name="SearchItem" placeholder="Search" value="@Model.SearchItem" class="form-control" />
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-success">Search</button>
+                </div>
+            </div>
+        </form>
+        </div>
+
+
+        <br />
+        <div class="container" p-3>
+            <div class="row" pt-4">
+                <div class="col-6">
+                    @{
+                        foreach(var role in Model.dashboards){
+                            if (role.Role.Contains("Admin"))
+                            {
+                                <a class="btn btn btn-outline-primary" asp-area="User" asp-controller="User" asp-action="AdminRegister" style="width:150px">Add Admin</a>
+                                <a class="btn btn btn-outline-primary" asp-area="Admin" asp-controller="Home" asp-action="AddRole" style="width:150px">Add New Role</a>
+                        
+                                break;
+                            }
+                        }
+                     }   
+                </div>
+                <div class="col-6 text-end">
+            
+                </div>
+            </div>
+            <br /><br />
+            <table class="table table-bordered table-striped" id="tablelist" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            UserName
+                            
+                        </th>
+                        <th>
+                            Email
+                        </th>
+
+                        <th>
+                            Role
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Action
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach (var obj in Model.dashboards)
+                    {
+                       
+
+                        <tr> 
+                            <td width="20%">
+                                @obj.Name
+                            </td>
+                            <td width="20%">
+                                @obj.Email
+                            </td>
+                            <td width="10%">
+                                @obj.Role
+                            </td>
+                            <td width="10%">
+                                @obj.status
+                            </td>
+                            <td width="7%">
+                                <div class="btn-group" >
+                                    @if (obj.status == Status.status.Pendind.ToString()) {
+                                        <a asp-controller="Home" asp-action="ChangeStatus" asp-route-id="@obj.Id" class="btn btn-outline-success mx-1" style="width: 70px; height: 40px;">
+                                            Approve
+                                        </a>
+                                        <a onclick="addpopup('@obj.Email')" class="btn btn-outline-danger mx-1">
+                                            Reject
+                                        </a>
+                                        @*<button type="button" onclick="addpopup('@obj.Email')" class="btn btn-sm btn-danger">Reject</button>*@
+                               
+                                    }
+                                     @if (obj.status == Status.status.Approved.ToString()) {
+                                        <a asp-controller="Home" asp-action="ChangeStatus" asp-route-id="@obj.Id" class="btn btn-outline-danger mx-1" style="width: 70px; height: 40px;">
+                                            Block
+                                        </a>
+                                    }
+                                     @if (obj.status == Status.status.Reject.ToString()) {
+                                       <h6 style=""> @obj.Reason</h6>
+                                    }
+                                     @if (obj.status == Status.status.Block.ToString()) {
+                                        <a asp-controller="Home" asp-action="ChangeStatus" asp-route-id="@obj.Id" class="btn btn-outline-warning mx-1" style="width: 70px; height: 40px;">
+                                            Unblock
+                                        </a>
+                                    }
+                                    @if (obj.Role == "Dealer" && obj.status != Status.status.Pendind.ToString() && obj.status != Status.status.Reject.ToString())
+                                    {
+                                        <a asp-area="User" asp-controller="Product" asp-action="IndexForAdmin" asp-route-id="@obj.Id" class="btn btn-outline-info mx-1" style="width: 70px; height: 40px;">
+                                            Product
+                                        </a>
+                                    }
+
+
+
+                                </div>
+
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+}
+<div id="modelpopup" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="mymodelcontent">
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+ {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+    <script>
+    function addpopup(email) {
+
+        
+        $.ajax({
+            url: '/Admin/Home/Popup',
+            type: "GET",
+            data: "email=" + email,
+            success: function (result) {
+
+                $("#mymodelcontent").html(result);
+                $("#modelpopup").show();
+            },
+            error: function (err) {
+                console.log(err);
+
+            }
+        });
+    }
+    function rejectData(reson) {
+        debugger;
+        var email = document.getElementById("email").value;
+        var Reason = document.getElementById("Reason").value;
+
+        $.ajax({
+            url: '/Admin/Home/Rejectasync',
+            type: "POST",
+            data: { 'email': email, 'Reason': Reason },
+            success: function (result) {
+                debugger;
+                console.log(result);
+                $("body").html(result);
+            },
+            error: function (err) {
+                debugger;
+                console.log(err);
+
+            }
+        });
+
+    }
+
+</script>

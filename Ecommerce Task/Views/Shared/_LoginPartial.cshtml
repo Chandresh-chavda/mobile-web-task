@@ -1,0 +1,40 @@
+﻿@using DataAccess;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> _signInManager
+@inject IHttpContextAccessor _httpContextAccessor
+@{
+    var username = User.Identity.Name;
+    
+}
+
+
+<ul class="navbar-nav ms-auto">
+        @*If the user is signed-in display Logout link*@
+       
+        @if (username != null)
+        {
+           
+            <li class="nav-item">
+                <form method="post" asp-area="Admin" asp-controller="Home" asp-action="Logout">
+                    <button type="submit" style="width:auto"
+                        class="nav-link btn btn-link py-0">
+                    Hellow! @User.Identity.Name <img src="~/images/product/dp.png" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%;" /> Logout
+                    </button>
+                </form>
+            </li>
+        }
+        else if(username == null)
+        {
+            <li class="nav-item">
+                <a class="nav-link" asp-area="User" asp-controller="User" asp-action="DealerRegister">
+                    Register
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                    Login
+                </a>
+            </li>
+        }
+    </ul>
+</>

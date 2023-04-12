@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ecommerce_Task</title>
+    <link rel="stylesheet" href="~/css/bootswatchthime.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ecommerce_Task.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />
+        <!-- Bootstrap CSS -->
+   @* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-CYiZma1Hv9XsFofE3qff1QFdTN55wG8PGoa+EtbGvnYzEEdUv/6fSbzhU1US6MzPK6jmP7V4bkN6grYD5C5z5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-h7nH+UrM25R1JlYsZz+fjh6s8T6zXsVhJ0T3TgT+nT4+NwqcGwJTLZgJmwG6Eq2S/sirS2OuK+6GLQi7MnI4xw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js" integrity="sha512-P9jWvyOfv1Q2nSLf3T3HnpG+i+WSwvzQd0nd+wm3XJH9B0L+e0RydyofNwoLJed0xmkZi6oYQ6U+K6UZ1nXu1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-8RJZEDLgadp4KjWR4O4b8Oyq5i5jKxSjmAFx2u0ZLhU7w+UgzBMeU6Vp74ST0Npz7VcH6l71NjVpZzCJYKjyrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>*@
+    </head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <header style="background-color:lightslategray">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black>
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Ecommerce_Task</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <partial name="_LoginPartial.cshtml"></partial>
+            </div>
+        </nav>
+    </header>
+   <div class="container flex-grow-1" style="margin-top:10px;">
+    <main role="main" class="pb-3">
+      <partial name="_Notification" />
+      @RenderBody()
+    </main>
+  </div>
+
+  @*<footer class="footer text-muted bg-primary py-3" style="bottom: 0; position: sticky; width: 100%;">*@
+    <footer class="footer text-muted bg-dark" style="position: fixed;  bottom: 0; width: 100%; height: 50px; margin-top: -50px; padding-top: 15px;">
+    <div class="container d-flex justify-content-center">
+      &copy; 2023 - Ecommerce_Task - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+  </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

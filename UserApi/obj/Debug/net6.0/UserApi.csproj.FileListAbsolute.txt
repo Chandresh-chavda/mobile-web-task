@@ -1,0 +1,15 @@
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.csproj.AssemblyReference.cache
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.AssemblyInfoInputs.cache
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.AssemblyInfo.cs
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.csproj.CoreCompileInputs.cache
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\staticwebassets\msbuild.UserApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\staticwebassets\msbuild.build.UserApi.props
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UserApi.props
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UserApi.props
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.dll
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\refint\UserApi.dll
+C:\Users\Chandresh.Chavda\source\Ecommerce Task\UserApi\obj\Debug\net6.0\UserApi.pdb

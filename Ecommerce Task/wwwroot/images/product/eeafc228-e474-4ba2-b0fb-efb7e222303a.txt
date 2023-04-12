@@ -1,0 +1,104 @@
+index btn 
+==========
+ @if (obj.status == ShowAll.Status.Pending)
+                {
+                        <a type="button" asp-action="Approve" asp-route-email="@obj.Email" asp-controller="User" class="btn btn-sm btn-success">Approve</a>
+                        <button type="button" onclick="addpopup('@obj.Email')" class="btn btn-sm btn-danger">Rejected</button>
+                }
+                else if(obj.status==ShowAll.Status.Approves)
+                {
+                      <a type="button"  class="btn btn-sm btn-success">Block</a>
+
+                }
+===============================
+after table
+=====
+<div id="modelpopup" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="mymodelcontent">
+            </div>
+        </div>
+    </div>
+</div>
+=========
+add popup
+===========
+@section Scripts
+    {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+<script>
+    function addpopup(email) {
+
+
+        $.ajax({
+            url: '/User/User/Popup',
+            type: "GET",
+            data: "email=" + email,
+            success: function (result) {
+
+                $("#mymodelcontent").html(result);
+                $("#modelpopup").show();
+            },
+            error: function (err) {
+                console.log(err);
+
+            }
+        });
+    }
+    function rejectData() {
+        debugger;
+        var email = document.getElementById("email").value;
+        var reson = document.getElementById("reson").value;
+
+        $.ajax({
+            url: '/User/User/Reject',
+            type: "POST",
+            data: { 'email': email, 'reason': reson },
+            success: function (result) {
+                debugger;
+                console.log(result);
+                $("body").html(result);
+            },
+            error: function (err) {
+                debugger;
+                console.log(err);
+
+            }
+        });
+
+    }
+
+</script>
+================
+controller
+===========
+[HttpGet]
+        public IActionResult Popup(string email)
+        {
+            ViewBag.Email = email;
+            return PartialView("_Popup");
+        }
+===========
+_popup html page
+
+@model Dealer
+<div class="container p-3" style="background-color:lightgray;">
+    <div class="form-control mb-2 border">
+        <input class="form-control" type="hidden" value="@ViewBag.Email" id="email" />
+       
+            <div class="col-6">
+                <label> Reason </label>
+            <input class="form-control" type="text"  id="reson" />
+               
+            </div>           
+            <div class="mb-2">
+                <br />
+            <button class="btn btn-info" onclick="rejectData()"> Save </button>
+            </div>
+      
+    </div>
+</div>

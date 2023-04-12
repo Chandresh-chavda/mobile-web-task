@@ -1,0 +1,47 @@
+﻿
+
+@model Login
+
+<br><br><br>
+<form method="post" asp-action="Index">
+    <div class="row offset-3" style="width:100%">
+        <div  style="width:50%">
+        <div class="row pb-2">
+            <h1 class="text-primary font-monospace"> <i class="bi bi-person-fill-lock"></i>Login</h1>
+            <hr />
+        </div>
+
+       
+       
+            <div class="input-group mb-3 ">
+                <div class="input-group-prepend bg-info">
+                    <span class="input-group-text" style="background:#a9bdbd; color:#000000"><i class="bi bi-person-fill-lock"></i></span>
+                </div>
+                <input required id="myInput" type="email" class="form-control " style="border: none; border-bottom: 1px solid #ccc; background-color: transparent;" asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+
+
+
+            <div class="input-group mb-3" >
+                <div class="input-group-prepend bg-info" >
+                    <span class="input-group-text" style="background:#a9bdbd; color:#000000 ;"><i class="bi bi-lock-fill"></i></span>
+                </div>
+                <input required type="password" class="form-control" asp-for="Password" style="border: none;  border-bottom: 1px solid #ccc; background-color: transparent;" />
+                <span asp-validation-for="Password"></span>
+        </div>
+
+
+           
+       
+
+
+
+        <button type="submit" class="btn btn-primary" style="width:150px">Login</button>
+        <a class="btn btn-secondary" asp-area="User" asp-controller="User" asp-action="DealerRegister" style="width:150px">Register</a>
+
+
+    </div>
+    </div>
+</form>
+

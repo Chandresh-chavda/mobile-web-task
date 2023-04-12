@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ecommerce Task.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ecommerce Task.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\css\\bootswatchthime.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchthime.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\0b2a83a2-a0de-4745-9c4c-e7d32c548dc9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\0b2a83a2-a0de-4745-9c4c-e7d32c548dc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\1d0c964d-03b2-4134-a571-1f20750225ec.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1d0c964d-03b2-4134-a571-1f20750225ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\1d729b2e-1346-4ec1-a465-5a1bcbd8a5a9.png",
+      "PackagePath": "staticwebassets\\images\\product\\1d729b2e-1346-4ec1-a465-5a1bcbd8a5a9.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\2d3b5c02-e36b-4156-a08f-5533fa4f0a44.png",
+      "PackagePath": "staticwebassets\\images\\product\\2d3b5c02-e36b-4156-a08f-5533fa4f0a44.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\389b96f3-f5eb-4302-b192-617332a86dfd.png",
+      "PackagePath": "staticwebassets\\images\\product\\389b96f3-f5eb-4302-b192-617332a86dfd.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\4e739eb8-42da-4e61-8a78-ead21800df3f.png",
+      "PackagePath": "staticwebassets\\images\\product\\4e739eb8-42da-4e61-8a78-ead21800df3f.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\5cf434d5-86c0-4bac-941d-e96a83b77a62.png",
+      "PackagePath": "staticwebassets\\images\\product\\5cf434d5-86c0-4bac-941d-e96a83b77a62.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\611977d7-5723-423c-8a6d-e0b2b2f17970.png",
+      "PackagePath": "staticwebassets\\images\\product\\611977d7-5723-423c-8a6d-e0b2b2f17970.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\7225a62b-9145-4be5-baf9-8be6a828f0b3.png",
+      "PackagePath": "staticwebassets\\images\\product\\7225a62b-9145-4be5-baf9-8be6a828f0b3.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\723fcbce-ee06-4ccf-aca2-f2f385b7b150.png",
+      "PackagePath": "staticwebassets\\images\\product\\723fcbce-ee06-4ccf-aca2-f2f385b7b150.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\733addc7-3eff-44af-98e3-be0420f65fca.png",
+      "PackagePath": "staticwebassets\\images\\product\\733addc7-3eff-44af-98e3-be0420f65fca.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\8ecf0ea2-09c4-496e-a8a8-115759146132.png",
+      "PackagePath": "staticwebassets\\images\\product\\8ecf0ea2-09c4-496e-a8a8-115759146132.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\97b02e6b-a076-48ed-bb5f-9de68b2126a5.png",
+      "PackagePath": "staticwebassets\\images\\product\\97b02e6b-a076-48ed-bb5f-9de68b2126a5.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\a33f5a48-74ca-404e-ae84-1a634bf2bc87.png",
+      "PackagePath": "staticwebassets\\images\\product\\a33f5a48-74ca-404e-ae84-1a634bf2bc87.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\b2dca89e-9782-4afe-88a8-4da2cd6f0e74.png",
+      "PackagePath": "staticwebassets\\images\\product\\b2dca89e-9782-4afe-88a8-4da2cd6f0e74.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\b6279de9-2feb-4e80-91ef-c62c5ecdfbf6.png",
+      "PackagePath": "staticwebassets\\images\\product\\b6279de9-2feb-4e80-91ef-c62c5ecdfbf6.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\ba742bcf-4a6e-4ab4-ae75-573d2d383bf4.png",
+      "PackagePath": "staticwebassets\\images\\product\\ba742bcf-4a6e-4ab4-ae75-573d2d383bf4.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\db7660f7-3b3c-4c6c-be79-9dd913d5d56f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\db7660f7-3b3c-4c6c-be79-9dd913d5d56f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\dp.png",
+      "PackagePath": "staticwebassets\\images\\product\\dp.png"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\eeafc228-e474-4ba2-b0fb-efb7e222303a.txt",
+      "PackagePath": "staticwebassets\\images\\product\\eeafc228-e474-4ba2-b0fb-efb7e222303a.txt"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\efedcbf3-9caf-409b-8d7b-35b6ef79b83d.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\efedcbf3-9caf-409b-8d7b-35b6ef79b83d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\js\\ModalPopup.js",
+      "PackagePath": "staticwebassets\\js\\ModalPopup.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Ecommerce Task.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Ecommerce Task.props",
+      "PackagePath": "build\\Ecommerce Task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommerce Task.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce Task.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Ecommerce Task.props",
+      "PackagePath": "buildTransitive\\Ecommerce Task.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

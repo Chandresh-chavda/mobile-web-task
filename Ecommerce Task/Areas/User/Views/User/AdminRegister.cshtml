@@ -1,0 +1,77 @@
+﻿@{
+	ViewData["Title"] = "AdminRegister";
+}
+
+
+
+@model DealerRegistration
+
+<form method="post" asp-action="AdminRegisterasync">
+	<div class="row offset-3" style="width:100%">
+		<div class="col-12">
+			<div class="border p-3 mt-4 row" style="width:50%">
+				<div class="col-12 pb-2">
+					<h2 class="text-primary">Add Admin</h2>
+
+				</div>
+				<div class="mb-3 ">
+					<label>UserName</label>
+					<input class="form-control" required asp-for="Name" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>Email</label>
+					<input class="form-control" required asp-for="Email" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+
+				</div>
+
+				<div class="mb-3 col-6">
+					<label>City</label>
+					<input class="form-control" asp-for="City" />
+					<span asp-validation-for="City" class="text-danger"></span>
+
+				</div>
+				<div class="mb-3 col-6">
+					<label>State</label>
+					<input class="form-control" asp-for="State" />
+					<span asp-validation-for="State" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>Country</label>
+					<input class="form-control" asp-for="Country" />
+					<span asp-validation-for="Country" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>PostalCode</label>
+					<input class="form-control" asp-for="PostalCode" />
+					<span asp-validation-for="PostalCode" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>Phonenumber</label>
+					<input class="form-control" asp-for="Phonenumber" />
+					<span asp-validation-for="Phonenumber" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>Password</label>
+					<input type="password" required class="form-control" asp-for="Password" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label>ConfirmPassword</label>
+					<input type="password" required class="form-control" asp-for="ConfirmPassword" />
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				</div>
+				<div class="col-12">
+					<button type="submit" class="btn btn-success" style="width:150px"> SignUp</button>
+					<a class="btn btn-secondary" asp-area="Admin" asp-controller="Home" asp-action="Dashboard" style="width:150px">Back To Login</a>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+</form>
