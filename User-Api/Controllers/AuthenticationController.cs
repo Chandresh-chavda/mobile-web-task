@@ -19,19 +19,29 @@ namespace User_Interface.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public AuthenticationController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager,IConfiguration configuration)
+        
+
+        public AuthenticationController(UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager,
+            IConfiguration configuration, IHttpContextAccessor httpContextAccessor)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _configuration = configuration;
+            _httpContextAccessor = httpContextAccessor;
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] Login data)
         {
             var user = await _userManager.FindByEmailAsync(data.Email);
+            if (user == null)
+            {
+                return BadRequest();
+            }
             if (user != null && await _userManager.CheckPasswordAsync(user, data.Password))
             {
 
@@ -58,20 +68,26 @@ namespace User_Interface.Controllers
                     signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                     );
 
+              
+               
+
                 return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expiration = token.ValidTo
-                });
+                    expiration = token.ValidTo,
+                   
+
+                }); 
             }
             else
             {
                 return Unauthorized();
             }
         }
-        
-           
-        
+       
+
+
+
         [HttpPost]
         public async Task<IActionResult> Registration([FromBody] DealerRegistration data)
         {

@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A239F37D-0163-4860-99BD-49855D5FE830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User-Interface", "User-Interface\User-Interface.csproj", "{D27A6699-48E8-4B7A-9000-2F0CE9FE2148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User-Interface", "User-Interface\User-Interface.csproj", "{D27A6699-48E8-4B7A-9000-2F0CE9FE2148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User-Api", "User-Api\User-Api.csproj", "{4E454A41-6D9E-4AB8-BE99-E6FE1FFC637C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User-Api", "User-Api\User-Api.csproj", "{4E454A41-6D9E-4AB8-BE99-E6FE1FFC637C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

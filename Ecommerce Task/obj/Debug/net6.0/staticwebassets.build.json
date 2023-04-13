@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+zBGQojuYuW2tN2k7a9k4fhnoo6xANjRULTwI58tpxI=",
+  "Hash": "fkp8mChF7MMcqh0EvI1pFaDy0hHL/5/qgP6tzJFm1Lk=",
   "Source": "Ecommerce Task",
   "BasePath": "_content/Ecommerce Task",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\a33f5a48-74ca-404e-ae84-1a634bf2bc87.png"
+    },
+    {
+      "Identity": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\a8a8da4e-b4ee-4284-8833-a88b970f89b0.png",
+      "SourceId": "Ecommerce Task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\",
+      "BasePath": "_content/Ecommerce Task",
+      "RelativePath": "images/product/a8a8da4e-b4ee-4284-8833-a88b970f89b0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\a8a8da4e-b4ee-4284-8833-a88b970f89b0.png"
     },
     {
       "Identity": "C:\\Users\\Chandresh.Chavda\\source\\Ecommerce Task\\Ecommerce Task\\wwwroot\\images\\product\\b2dca89e-9782-4afe-88a8-4da2cd6f0e74.png",

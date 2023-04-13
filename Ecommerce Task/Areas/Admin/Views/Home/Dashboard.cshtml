@@ -50,7 +50,7 @@
                 <div class="col-6">
                     @{
                         foreach(var role in Model.dashboards){
-                            if (role.Role.Contains("Admin"))
+                            if (role.Role == "Admin")
                             {
                                 <a class="btn btn btn-outline-primary" asp-area="User" asp-controller="User" asp-action="AdminRegister" style="width:150px">Add Admin</a>
                                 <a class="btn btn btn-outline-primary" asp-area="Admin" asp-controller="Home" asp-action="AddRole" style="width:150px">Add New Role</a>

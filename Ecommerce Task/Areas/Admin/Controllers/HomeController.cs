@@ -11,6 +11,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using static Models.Roles;
 
 namespace Ecommerce_Task.Areas.Admin.Controllers
 {
@@ -169,7 +170,7 @@ namespace Ecommerce_Task.Areas.Admin.Controllers
                     userList.dashboards = (from user in _db.ApplicationUsers
                                            join userrole in _db.UserRoles on user.Id equals userrole.UserId
                                            join role in _db.Roles on userrole.RoleId equals role.Id
-                                           where role.Name != "SuperAdmin"
+                                           where role.Name != "SuperAdmin" && role.Name != "Admin"
                                            select (new Dashboard
                                            {
                                                Id = user.Id,
@@ -194,7 +195,9 @@ namespace Ecommerce_Task.Areas.Admin.Controllers
                     userList.dashboards = (from user in _db.ApplicationUsers
                                            join userrole in _db.UserRoles on user.Id equals userrole.UserId
                                            join role in _db.Roles on userrole.RoleId equals role.Id
-                                           where role.Name != "SuperAdmin" && role.Name != "Admin" && role.Name.Contains(searchItem) || user.Name.Contains(searchItem) || user.Email.Contains(searchItem)
+                                           where role.Name != "SuperAdmin" && role.Name != "Admin" && role.Name.Contains(searchItem) 
+                                           || user.Name.Contains(searchItem) && role.Name != "SuperAdmin" && role.Name != "Admin" ||
+                                            role.Name != "SuperAdmin" && role.Name != "Admin" && user.Email.Contains(searchItem)
                                            select (new Dashboard
                                            {
                                                Id = user.Id,
